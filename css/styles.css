@@ -94,6 +94,15 @@ img{
     border-radius: 50px;
 }
 
+#nav-logo{
+    margin-top: 50px;
+    width:45%;
+    height:45%;
+    border-radius: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 #icon:hover{
     transform: scale(1.1);
 }
@@ -265,6 +274,6 @@ button{
 
 .nav{
     display:flex;
-    
+    justify-content: center;
 }
 
