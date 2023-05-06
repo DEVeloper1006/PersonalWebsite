@@ -40,6 +40,7 @@ h1{
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
     animation:animate 10s linear infinite;
+    cursor: pointer;
 }
 
 #footer{
@@ -51,6 +52,7 @@ h1{
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
     animation:animate 10s linear infinite;
+    cursor: pointer;
 }
 
 @keyframes animate{
@@ -119,6 +121,7 @@ h2{
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
     animation:animate 10s linear infinite;
+    cursor: pointer;
 }
 
 h3{
@@ -133,6 +136,7 @@ h3{
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
     animation:animate 10s linear infinite;
+    cursor: pointer;
 }
 
 
@@ -143,12 +147,14 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 #caption{
     font-family: monospace;
     font-size:2em;
     text-align: center;
+    cursor: pointer;
 }
 
 a{
@@ -270,6 +276,11 @@ button{
     margin-right: 10px;
     font-weight: bold;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.1);
 }
 
 .nav{
